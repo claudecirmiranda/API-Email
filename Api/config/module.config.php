@@ -20,6 +20,28 @@ return [
                     ],
                 ],
             ],
+            // Nova rota para getTemplateStructureAction
+            'api.email.getstructure' => [ 
+                'type' => Segment::class,
+                'options' => [
+                    'route' => '/api/email/getstructure', // Rota específica
+                    'defaults' => [
+                        'controller' => Controller\EmailController::class,
+                        'action' => 'getTemplateStructure',
+                    ],
+                ],
+            ],    
+            //postTemplateAction        
+            'api.email.structure' => [ 
+                'type' => Segment::class,
+                'options' => [
+                    'route' => '/api/email/repl', // Rota específica
+                    'defaults' => [
+                        'controller' => Controller\EmailController::class,
+                        'action' => 'postTemplate',
+                    ],
+                ],
+            ],    
         ],
     ],
     'controllers' => [
