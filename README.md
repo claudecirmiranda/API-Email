@@ -26,6 +26,13 @@ nagemcombr/module/Api
 │       EmailControllerFactory.php     
 │     ├───Service     
 │       EmailService.php     
+│     ├───util     
+│       simple_html_dom.php
+│       constants.php
+│       Debug.php
+│       HtmlDocument.php
+│       HtmlNode.php
+│       HtmlWeb.php
 │     └───View
              email_template.phtml
              email_template.html
