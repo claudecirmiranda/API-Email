@@ -28,6 +28,8 @@ nagemcombr/module/Api
 │       EmailService.php     
 │     └───View
              email_template.phtml
+             email_template.html
+
 ```
 
 ### Arquivos Principais
