@@ -15,7 +15,7 @@ A solução é uma API construída em PHP 7 utilizando Zend Framework 2. Ela rec
 A organização do módulo `Api` está detalhada abaixo:
 
 ```bash
-nagemcombr/module/Api 
+myproject/module/Api 
 │   Module.php 
 │ ├───config 
 │       module.config.php 
@@ -202,10 +202,6 @@ Host: exemplo.com
     "html": "<!DOCTYPE html PUBLIC..."
 }
 ```
-
-#### HTML Renderizado
-
-![image](https://github.com/user-attachments/assets/c241f84a-eba5-42ed-94ce-f7757e484824)
 
 * * *
 
