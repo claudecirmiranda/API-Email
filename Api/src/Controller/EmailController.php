@@ -102,7 +102,7 @@ class EmailController extends AbstractActionController
         $htmlContent = file_get_contents($templatePath);
 
         // Utiliza o PHP Simple HTML DOM Parser para analisar o HTML
-        require_once('/srv/www/htdocs/nagemcombr/module/Api/util/simple_html_dom.php');
+        require_once('/srv/www/htdocs/myproject/module/Api/util/simple_html_dom.php');
         // Observação: Esta biblioteca requer instalação e configuração adicionais.
         $html = str_get_html($htmlContent);
 
